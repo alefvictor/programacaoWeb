@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang=" " dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      cabeçalho
+      <nav>
+        <ul>
+          <li>lancamento</li>
+          <li>Ofertas</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <table border="">
+        <tr>
+          <th>
+          Produto
+          </th>
+        <th>
+          Preço (R$)
+        </th>
+        <th>
+          Imagem
+        </th>
+      </tr>
+      <tr>
+        <td>
+          Feijão
+        </td>
+        <td>
+          15,50
+        </td>
+        <td>
+            <img src="imagem/146781_original.jpg" alt="">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Arroz
+        </td>
+        <td>
+          4,20
+        </td>
+        <td>
+          <img src="imagem/14781_original.jpg" alt="">
+        </td>
+      </tr>
+
+    </table>
+    <br/>
+
+    <form action="cadastra.php" method="post">
+
+      Nome: <input type="text" /><br/>
+      Endereço: <input type="text" /><br/>
+      Estado: <select class="" name="Estado">
+        <option value="OPC1">Paraíba</option>
+        <option value="OPC2">Pernambuco</option>
+        <option value="OPC3">Rio Grande do Norte</option>
+        <option value="OPC4">Goiás</option>
+        <option value="OPC5">Bahia</option>
+      </select> <br/>
+
+      Sexo: <input type="radio" name="sexo" value="Masculino" /> Masculino -
+        <input type="radio" name="sexo" value="Feminino" /> Feminino <br/>
+
+      Matérias preferidas: <input type="checkbox" name="matéria"
+value="Português" /> Português
+        <input type="checkbox" name="matéria" value="Java" /> Java
+        <input type="checkbox" name="matéria" value="Matemática" /> Matemática
+        <input type="checkbox" name="matéria" value="PHP" /> PHP <br/>
+
+      Resumo de suas habilidade: <textarea></textarea><br/>
+      <input type="submit" value='Enviar!' /><br/>
+    </form>
+
+    <br/>
+    <table border="">
+      <form class="" action="index.html" method="post">
+      <tr>
+        <th colspan="2">
+          Formulário de cadastramento
+        </th>
+      </tr>
+      <tr>
+        <td>
+          Nome:
+        </td>
+        <td>
+          <input type="text" /><br/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Endereço:
+        </td>
+        <td>
+          <input type="text" /><br/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Estado:
+        </td>
+        <td>
+          <select class="" name="Estado">
+          <option value="OPC1">Paraíba</option>
+          <option value="OPC2">Pernambuco</option>
+          <option value="OPC3">Rio Grande do Norte</option>
+          <option value="OPC4">Goiás</option>
+          <option value="OPC5">Bahia</option>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Sexo:
+        </td>
+        <td>
+          <input type="radio" name="sexo" value="Masculino" /> Masculino -
+          <input type="radio" name="sexo" value="Feminino" /> Feminino
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Matérias preferidas:
+        </td>
+        <td>
+          <input type="checkbox" name="matéria" value="Português" /> Português
+          <input type="checkbox" name="matéria" value="Java" /> Java
+          <input type="checkbox" name="matéria" value="Matemática" /> Matemática
+          <input type="checkbox" name="matéria" value="PHP" /> PHP
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Resumo de suas habilidades:
+        </td>
+        <td>
+          <textarea></textarea><br/>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="submit" value="Enviar!" />
+        </td>
+      </tr>
+      </form>
+    </table>
+    </main>
+    <footer>
+      rodapé
+    </footer>
+  </body>
+</html>
